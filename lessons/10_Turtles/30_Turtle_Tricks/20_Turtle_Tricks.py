@@ -21,8 +21,7 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 ... # Your code here
 tina.forward(150)
 tina.left(72)
-tina.pencolor('purple
-')
+tina.pencolor('purple')
 
 tina.forward(150)
 tina.left(72)
