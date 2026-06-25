@@ -22,7 +22,7 @@ tina.color('green')
 tina.forward(150)
 tina.left(120)
 
-tina.color('green')
+tina.color('red')
 tina.forward(150)
 tina.left(120)
 tina.color('green')
