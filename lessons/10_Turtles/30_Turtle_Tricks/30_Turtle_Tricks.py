@@ -30,4 +30,12 @@ tina.circle(75)
 tina.end_fill()
 turtle.exitonclick()                    # Close the window when we click on it
 
+tina.penup()
+tina.goto(0, -75)
+tina.pendown()
+
+tina.color('red')                       # Set the color of tina to red
+tina.begin_fill()
+tina.circle(75)
+tina.end_fill()
 # Save your progress by checking in your code.
