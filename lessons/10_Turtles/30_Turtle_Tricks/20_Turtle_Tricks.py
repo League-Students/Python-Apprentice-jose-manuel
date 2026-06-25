@@ -22,5 +22,6 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 tina.forward(150)
 tina.left(20)
 tina.pencolor('blue')
-#Draw 
+#Draw a pentagon
+
 turtle.exitonclick()                    # Close the window when we click on it
