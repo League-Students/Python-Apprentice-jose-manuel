@@ -24,18 +24,13 @@ for i in range(4):
         tina.forward(120)
         tina.left(90)
 
+    draw_polygon()                        # Draw a square
         tina.forward(150)
-        tina.left(72)
+        tina.left(72)                    # Move tina to another spot on the scree
 
+    draw_polygon(...)                        # Draw a pentagon
         tina.forward(150)
         tina.left(360/6)
-draw_polygon(...)                        # Draw a square
-        tina.forward(150)
-        tina.left(72)
-...                                      # Move tina to another spot on the screen
-
-draw_polygon(...)                        # Draw a pentagon
-    
 ...                                      # Move tina to another spot on the screen
 
 draw_polygon(...)                        # Draw a hexagon
