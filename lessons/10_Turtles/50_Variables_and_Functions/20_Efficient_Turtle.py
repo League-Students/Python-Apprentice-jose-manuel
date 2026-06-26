@@ -33,7 +33,7 @@ tina.left(72)
 draw_polygon(6)                        # Draw a pentagon
 
 tina.forward(100)
-tina.left(75)
+tina.left(90)
 ...                                      # Move tina to another spot on the screen
 
 draw_polygon(...)                        # Draw a hexagon
