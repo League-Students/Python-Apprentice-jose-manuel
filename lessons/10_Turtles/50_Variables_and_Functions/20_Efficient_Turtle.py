@@ -20,7 +20,7 @@ def draw_polygon(sides):
 
     angle = 5                        # Calculate angle from number of sides
     
-for i in range(4):   
+    for i in range(4):   
     tina.forward(120)
     tina.left(90)
 draw_polygon(5)                        # Draw a square
