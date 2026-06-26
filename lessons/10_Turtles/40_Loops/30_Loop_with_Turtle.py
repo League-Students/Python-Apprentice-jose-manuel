@@ -14,6 +14,6 @@ name: Loop With Turtle
 """
 
 ... # Your code here
-for i in 
+for i in range
 tina.forward(150)
 tina.left(72)
