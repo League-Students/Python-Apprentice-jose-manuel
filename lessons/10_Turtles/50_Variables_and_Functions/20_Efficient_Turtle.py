@@ -24,7 +24,8 @@ for i in range(4):
         tina.forward(120)
         tina.left(90)
 
-        tina.forward(150)tina.left(72)
+        tina.forward(150)
+        tina.left(72)
 draw_polygon(...)                        # Draw a square
     
 ...                                      # Move tina to another spot on the screen
