@@ -29,11 +29,11 @@ def draw_polygon(sides):
 ...                                      # Move tina to another spot on the screen
 
     draw_polygon(6)                        # Draw a pentagon
-            tina.forward(120)
-            tina.left(90)
+            tina.forward(150)
+            tina.left(75)
 ...                                      # Move tina to another spot on the screen
 
     draw_polygon(...)                        # Draw a hexagon
-tina.forward(120)
+            tina.forward(150)
             tina.left(90)
 turtle.exitonclick()                     # Close the window when we click on it
