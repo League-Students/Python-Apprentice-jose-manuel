@@ -35,5 +35,5 @@ def draw_polygon(sides):
 
     draw_polygon(...)                        # Draw a hexagon
             tina.forward(150)
-            tina.left(90)
+            tina.left(750)
 turtle.exitonclick()                     # Close the window when we click on it
