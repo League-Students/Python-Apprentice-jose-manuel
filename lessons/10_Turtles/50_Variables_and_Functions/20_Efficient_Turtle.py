@@ -14,20 +14,20 @@ turtle.setup(600, 600, 0, 0)             # Set the size of the window
 tina = turtle.Turtle()                   # Create a turtle named tina
 
 tina.shape('turtle')                     # Set the shape of the turtle to a turtle
-tina.speed(1,000)                            # Move at a moderate speed, not too fast.
+tina.speed(2)                            # Move at a moderate speed, not too fast.
 
 def draw_polygon(sides):
 
     angle =360/slides                       # Calculate angle from number of sides
     
-for i in range(4):   
+    for i in range(4):   
         tina.forward(120)
         tina.left(90)
 
 draw_polygon(5)                        # Draw a square
 
 tina.forward(100)
-tina.left(angle)
+tina.left()
                   # Move tina to another spot on the scree
 
 draw_polygon(6)                        # Draw a pentagon
