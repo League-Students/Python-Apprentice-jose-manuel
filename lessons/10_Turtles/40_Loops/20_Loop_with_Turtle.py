@@ -22,5 +22,5 @@ tina.speed(2)                           # Move at a moderate speed, not too fast
 
 for i in range(4)
     tina.forward(200)
-    tina.left
+    tina.left()
 turtle.exitonclick()                    # Close the window when we click on it
