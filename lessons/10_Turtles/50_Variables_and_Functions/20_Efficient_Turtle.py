@@ -27,14 +27,13 @@ def draw_polygon(sides):
 draw_polygon(5)                        # Draw a square
 
 tina.forward(100)
-tina.left()
+tina.left(72)
                   # Move tina to another spot on the scree
 
 draw_polygon(6)                        # Draw a pentagon
 
-tina.penup()
-tina.goto()
-tina.pendown()
+tina.forward(120)
+        tina.left(90)
 ...                                      # Move tina to another spot on the screen
 
 draw_polygon(...)                        # Draw a hexagon
