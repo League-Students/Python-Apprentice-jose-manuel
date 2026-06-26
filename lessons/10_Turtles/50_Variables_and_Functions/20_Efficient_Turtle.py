@@ -21,8 +21,8 @@ def draw_polygon(sides):
     angle =360/slides                       # Calculate angle from number of sides
     
     for i in range(4):   
-        tina.forward(120)
-        tina.left(90)
+            tina.forward(120)
+            tina.left(90)
 
 draw_polygon(5)                        # Draw a square
 
@@ -32,8 +32,8 @@ tina.left(72)
 
 draw_polygon(6)                        # Draw a pentagon
 
-tina.forward(120)
-        tina.left(90)
+tina.forward(100)
+tina.left(75)
 ...                                      # Move tina to another spot on the screen
 
 draw_polygon(...)                        # Draw a hexagon
