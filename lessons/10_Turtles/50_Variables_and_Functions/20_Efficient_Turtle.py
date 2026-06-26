@@ -27,13 +27,13 @@ for i in range(4):
 draw_polygon(5)                        # Draw a square
 
 tina.penup()
-tina.goto(0, -75)
+tina.goto()
 tina.pendown()                  # Move tina to another spot on the scree
 
 draw_polygon(6)                        # Draw a pentagon
 
 tina.penup()
-tina.goto(0, -75)
+tina.goto()
 tina.pendown()
 ...                                      # Move tina to another spot on the screen
 
