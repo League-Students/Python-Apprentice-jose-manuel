@@ -26,6 +26,8 @@ for i in range(4):
 
 draw_polygon(5)                        # Draw a square
 
+tina.forward(100)
+tina.left(angle)
                   # Move tina to another spot on the scree
 
 draw_polygon(6)                        # Draw a pentagon
