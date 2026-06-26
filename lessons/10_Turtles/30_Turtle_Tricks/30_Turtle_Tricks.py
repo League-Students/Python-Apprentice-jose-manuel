@@ -33,7 +33,7 @@ tina.penup()
 tina.goto(0, -95)
 tina.pendown()
 
-tina.color('red')                       # Set the color of tina to red
+tina.color('blue')                       # Set the color of tina to red
 tina.begin_fill()
 tina.circle(95)
 tina.end_fill()
