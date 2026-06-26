@@ -50,9 +50,7 @@ tina.right(90)
 ## Draw a Circle
 ##
 
-tina.penup()
-tina.goto(0, -75)
-tina.pendown()
+
 
 tina.color('red')                       # Set the color of tina to red
 tina.begin_fill()
