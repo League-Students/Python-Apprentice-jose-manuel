@@ -22,8 +22,7 @@ def draw_polygon(sides):
     
     for i in range(4):   
         
-        
-                      # Loop through the number of sides      
+  
 draw_polygon(5)                        # Draw a square
 
 ...                                      # Move tina to another spot on the screen
