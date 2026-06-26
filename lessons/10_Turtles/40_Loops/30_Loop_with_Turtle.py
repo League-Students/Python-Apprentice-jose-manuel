@@ -15,7 +15,7 @@ name: Loop With Turtle
 
 ... # Your code here
 import turtle                           # Tell Python we want to work with the turtle
-turtle.setup(0, 0, 600, 0)            # Set the size of the window
+turtle.setup(0, 600, 0, 0)            # Set the size of the window
 
 tina = turtle.Turtle()                 # Create a turtle named tina
 tina.shape('turtle')                    # Set the shape of the turtle to a turtle
