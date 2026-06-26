@@ -21,8 +21,8 @@ def draw_polygon(sides):
     angle = 4                        # Calculate angle from number of sides
     
     for i in range(4):   
-            tina.forward()
-            tina
+            tina.forward(120)
+            tina.left
 draw_polygon(5)                        # Draw a square
 
 ...                                      # Move tina to another spot on the screen
